@@ -47,6 +47,7 @@ export const Hero = () => {
               className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
               animate={{
                 translateY: [-30, 30],
+                z: 1,
               }}
               transition={{
                 repeat: Infinity,
@@ -67,7 +68,7 @@ export const Hero = () => {
               src={noodleImage.src}
               width={220}
               alt="Noodle image"
-              className="hidden lg:block absolute top-[524px] left-[448px]"
+              className="hidden lg:block absolute top-[556px] left-[448px]"
               style={{ rotate: 30, translateY: translateY }}
             />
           </div>
