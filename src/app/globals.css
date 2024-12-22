@@ -36,4 +36,16 @@
   .card {
     @apply p-10 border border-[#F1f1f1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full;
   }
+
+  .scrollBody {
+    width: 100vw;
+
+    position: fixed;
+
+    top: 0;
+
+    display: flex;
+
+    flex-direction: column;
+  }
 }
