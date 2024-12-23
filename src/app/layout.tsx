@@ -6,8 +6,8 @@ import clsx from "clsx";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shapes? Maybe...",
-  description: "Created by Matthew Denton",
+  title: "Shapes and Shape like objects",
+  description: "Hello...? Is this thing on?",
 };
 
 export default function RootLayout({
