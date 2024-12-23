@@ -24,8 +24,8 @@ export const CallToAction = () => {
         <div className="section-wrap relative">
           <h2 className="section-title">Join Us.</h2>
           <p className="section-description mt-5">
-            It&apos;s not too late! Make the right decision before you grow old
-            and fill with an unyelding, growing feeling of regret.
+            It&apos;s not too late! Join us before you grow old and fill with
+            the ever increasing weight of the sins you carry.
           </p>
           <motion.img
             src={starImage.src}

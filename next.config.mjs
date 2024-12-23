@@ -29,9 +29,6 @@ const nextConfig = {
   },
 
   // ...other config
-  experimental: {
-    appDir: true,
-  },
   distDir: "out",
   output: "export",
   images: {

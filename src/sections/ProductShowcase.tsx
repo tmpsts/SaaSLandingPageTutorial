@@ -1,6 +1,6 @@
 "use client";
 // import productImage from "@/assets/product-image.png";
-import hawkTuahImage from "@/assets/hawktuah.png";
+import hawkTuahImage from "@/assets/hawktwoah.png";
 import pyramidImage from "@/assets/pyramid.png";
 import tubeImage from "@/assets/tube.png";
 import Image from "next/image";
@@ -34,11 +34,11 @@ export const ProductShowcase = () => {
           </p>
         </div>
         <div className="relative">
-          <div className="mt-10 rounded-xl aspect-video">
+          <div className="mt-10 rounded-xl aspect-video bg-[#181A20]">
             <Image
               src={hawkTuahImage}
               alt="Hawk Tuah Stock Price"
-              className="aspect-video object-cover rounded-xl"
+              className="aspect-video object-contain rounded-xl"
             />
           </div>
           <motion.img
