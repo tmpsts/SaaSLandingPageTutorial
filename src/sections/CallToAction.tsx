@@ -22,30 +22,30 @@ export const CallToAction = () => {
     >
       <div className="container">
         <div className="section-wrap relative">
-          <h2 className="section-title">Sign up for free today</h2>
+          <h2 className="section-title">Join Us.</h2>
           <p className="section-description mt-5">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress and motivate your efforts.
+            It&apos;s not too late! Make the right decision before you grow old
+            and fill with an unyelding, growing feeling of regret.
           </p>
           <motion.img
             src={starImage.src}
             alt="Star Image"
             width={360}
-            className="hidden md:block absolute -left-[350px] -top-[137px]"
+            className="hidden md:block absolute -left-[380px] -top-[137px]"
             style={{ translateY: translateY }}
           />
           <motion.img
             src={springImage.src}
             alt="Spring Image"
             width={360}
-            className="hidden md:block absolute -right-[331px] -top-[19px]"
+            className="hidden md:block absolute -right-[351px] -top-[19px]"
             style={{ translateY: translateY }}
           />
         </div>
         <div className="flex justify-center gap-2 mt-10">
-          <button className="btn btn-primary">Get for free</button>
+          <button className="btn btn-primary">Good Choice</button>
           <button className="btn btn-text gap-1">
-            <span>Learn more</span>
+            <span>Oh Well...</span>
             <ArrowIcon className="h-5 w-5" />
           </button>
         </div>

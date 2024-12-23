@@ -126,12 +126,12 @@ export const Testimonials = () => {
       <div className="container">
         <div className="section-wrap">
           <div className="flex justify-center">
-            <p className="tag mx-auto">Testimonials</p>
+            <p className="tag mx-auto">Real and true</p>
           </div>
-          <h2 className="section-title mt-5">What our users say</h2>
+          <h2 className="section-title mt-5">What our fans say</h2>
           <p className="section-description mt-5">
-            From intuitive design to powerful features, our app has become an
-            essential tool for users around the world.
+            I can&apos;t believe you all actually came! My last birthday I sent
+            out a BUNCH of invites but I guess they all got lost...
           </p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">

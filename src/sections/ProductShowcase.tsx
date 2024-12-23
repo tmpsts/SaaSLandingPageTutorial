@@ -1,5 +1,6 @@
 "use client";
-import productImage from "@/assets/product-image.png";
+// import productImage from "@/assets/product-image.png";
+import hawkTuahImage from "@/assets/hawktuah.png";
 import pyramidImage from "@/assets/pyramid.png";
 import tubeImage from "@/assets/tube.png";
 import Image from "next/image";
@@ -22,24 +23,30 @@ export const ProductShowcase = () => {
       <div className="container">
         <div className="section-wrap">
           <div className="flex justify-center">
-            <div className="tag">Boost your productivity</div>
+            <div className="tag">I hope this hurts</div>
           </div>
           <h2 className="section-title mt-5">
-            A more effective way to track progress
+            Face it little sheep, you are worthless
           </h2>
           <p className="section-description mt-5">
-            Effortlessly turn your ideas into a fully functional, responsive,
-            SaaS website in just minutes with this template.
+            Buy more crypto... I&apos;m hungry... nom nom nom nom. nom nom nom
+            nom. nom nom nom nom.
           </p>
         </div>
         <div className="relative">
-          <Image src={productImage} alt="Product Image" className="mt-10" />
+          <div className="mt-10 rounded-xl aspect-video">
+            <Image
+              src={hawkTuahImage}
+              alt="Hawk Tuah Stock Price"
+              className="aspect-video object-cover rounded-xl"
+            />
+          </div>
           <motion.img
             src={pyramidImage.src}
             alt="Pyramid Image"
             height={262}
             width={262}
-            className="hidden md:block absolute -right-36 -top-32"
+            className="hidden md:block absolute -right-36 -top-36"
             style={{ translateY }}
           />
           <motion.img
@@ -47,7 +54,7 @@ export const ProductShowcase = () => {
             alt="Tube Image"
             height={248}
             width={248}
-            className="hidden md:block absolute bottom-24 -left-36"
+            className="hidden md:block absolute bottom-8 -left-36"
             style={{ translateY }}
           />
         </div>

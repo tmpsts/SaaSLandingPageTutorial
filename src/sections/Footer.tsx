@@ -28,7 +28,9 @@ export const Footer = () => {
           <SocialPin />
           <SocialYoutube />
         </div>
-        <p className="mt-6">&copy; 2024 Matthew Denton. All rights reserved.</p>
+        <p className="mt-6">
+          &copy; 2024 Matthew Denton | tmpst.fun | All rights reserved |
+        </p>
       </div>
     </footer>
   );

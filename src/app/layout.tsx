@@ -6,7 +6,7 @@ import clsx from "clsx";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Basic SaaS Landing Page",
+  title: "Shapes? Maybe...",
   description: "Created by Matthew Denton",
 };
 

@@ -5,52 +5,53 @@ import { motion } from "framer-motion";
 
 const pricingTiers = [
   {
-    title: "Free",
+    title: '"Noob"',
     monthlyPrice: 0,
     buttonText: "Get started for free",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
-      "Integrations",
-      "Basic support",
+      "Up to 10 shape limit",
+      "Limited access to The Squircle",
+      "1 - 3 Gigaflops of compute",
+      '"Low Income" User title',
+      "Basic Daniel assistance",
     ],
   },
   {
-    title: "Pro",
+    title: "Parkour Pro",
     monthlyPrice: 9,
     buttonText: "Sign up now",
     popular: true,
     inverse: true,
     features: [
-      "Up to 50 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
-      "Integrations",
-      "Priority support",
-      "Advanced support",
-      "Export support",
+      "Advanced shapes",
+      "Up to 50 shape limit",
+      "AI powered shape chaser",
+      "Unlimited access to The Squircle",
+      "50 Gigaflops of compute",
+      '"Middle Class" User title',
+      "Priority Daniel support",
     ],
   },
   {
-    title: "Business",
-    monthlyPrice: 19,
+    title: "The Champion",
+    monthlyPrice: 1773,
     buttonText: "Sign up now",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
-      "Dedicated account manager",
-      "Custom fields",
-      "Advanced analytics",
-      "Export capabilities",
-      "API access",
-      "Advanced security features",
+      "Advanced Shapes",
+      "Up to 100 shape limit",
+      "AI powered shape chaser",
+      "Unlimited access to Squircle+",
+      "200 Gigaflops of compute",
+      "Quantum Shape Encryption",
+      "Shape exploit capabilities",
+      "Advanced shape security",
+      '"Upper Class" User title',
+      "Dedicated Daniel manager",
+      "Access to our custom shAPI",
     ],
   },
 ];
@@ -60,10 +61,10 @@ export const Pricing = () => {
     <section className="py-24 bg-white">
       <div className="container">
         <div className="section-wrap">
-          <h2 className="section-title">Pricing</h2>
+          <h2 className="section-title">Hey!</h2>
           <p className="section-description mt-5">
-            Free forever. Upgrade for unlimited tasks, better security, and
-            exclusive features.
+            Are you gonna pay for that? You can&apos;t just walk out of the
+            store without paying.
           </p>
         </div>
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
@@ -109,7 +110,12 @@ export const Pricing = () => {
                   <span className="text-4xl font-bold tracking-tigher leading-none">
                     ${monthlyPrice}
                   </span>
-                  <span className="tracking-tight font-bold text-black/50">
+                  <span
+                    className={twMerge(
+                      "tracking-tight font-bold text-black/50",
+                      inverse === true && "text-white/60"
+                    )}
+                  >
                     /month
                   </span>
                 </div>

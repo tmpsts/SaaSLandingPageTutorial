@@ -23,19 +23,22 @@ export const Hero = () => {
       <div className="container">
         <div className="md:flex items-center ">
           <div className="md:w-[478px]">
-            <div className="tag">Version 2.0 is here</div>
+            <div className="tag">
+              This Is My Website About Shapes | Version 2
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-              Pathway to productivity
+              I Love My Shapes!
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-              Celebrate the joy of accomplishment with an app designed to track
-              your progress, motivate your efforts, and celebrate your
-              successes.
+              These are my favorite shapes, all except for the noodle. The
+              noodle does&apos;t seem to have a concept of personal space. This
+              is because the noodle was raised in a broken home. Can&apos;t you
+              tell?
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">Get for free</button>
+              <button className="btn btn-primary">Eat the noodle</button>
               <button className="btn btn-text gap-1">
-                <span>Learn more</span>
+                <span>I&apos;m on mobile and I can&apos;t seee itt :C</span>
                 <ArrowIcon className="h-5 w-5" />
               </button>
             </div>
